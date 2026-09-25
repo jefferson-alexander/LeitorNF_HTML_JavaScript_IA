@@ -1,0 +1,78 @@
+/*TUDO - Resetar os estilos*/
+*{
+    margin: 0;
+    padding: 0; /*espaçamento interno*/
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #dadde2;
+    color: #22304a; /*cor do texto*/
+    max-width: 520px; /*largura máxima*/
+    margin: 0 auto;   /*define a margem automaticamente*/
+    padding: 24px;
+}
+
+h1{
+   text-align: center;
+}
+.topo{
+    color:#6b7a94;
+    text-align: center;
+    margin: 16px;
+}
+
+.caixa-total{
+    background-color: #0f766e;
+    color:#ffffff;
+    padding: 24px;
+    text-align: center;
+    border-radius: 18px;
+    margin-bottom: 12px;
+}
+
+.total-gasto{
+    font-size: 42px;
+    font-weight: bold; /*negrito*/
+    margin: 12px;
+}
+
+label{
+    background-color: #ffffff;
+    border-radius: 16px;
+    padding: 28px;
+    text-align: center;    
+    font-weight: bold;
+    border: 4px dashed#c3fce0;
+    display: block; /*um elemento ocupe uma linha inteira*/
+    cursor: pointer;
+    margin-bottom: 12px;
+}
+
+input{
+    display: none; /*esconde o input*/
+}
+
+.comprovante{
+    background-color: #ffffff;
+    border-radius: 14px;
+    padding: 16px;
+    margin-bottom: 12px;
+}
+
+.itens{
+    white-space: pre-line;
+    font-size: 15px;
+    line-height: 1.8;
+    color: #4a5b78;
+}
+
+.total-notas{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px dashed #d6dee9; /* Linha pontilhada de separação */
+    padding-top: 12px;      /* Espaço interno acima do texto */
+    margin-top: 12px;
+    font-size: 15px;
+    color: #6b7a94
+}

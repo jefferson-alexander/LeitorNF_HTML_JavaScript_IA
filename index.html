@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">    <!--inserindo o arquivo css-->    
+    <script src="https://js.puter.com/v2/"></script>
+    <!--Puter é uma ferramenta de IA que irá ler a imagem
+    esse script é pego no site do Puter na aba 'Docs'-->
+    <title>Gasto da Foto</title>
+</head>
+<body>
+    <div>
+        <h1>Gasto na Foto</h1>  <!--Headline, título principal-->
+        <p class="topo">Fotografe o comprovante. A IA anota para você</p>
+    </div>
+    <div class="caixa-total">
+        <p>Total gasto</p>
+        <h2 class="total-gasto">R$ 0,00</h2>        
+    </div>
+    <label> <!--onchange é a mudança para quando selecionar o javascripd-->
+        <p>🧾 Toque para fotografar o comprovante</p>
+        <input class="foto" onchange="lerFoto()" type="file" accept="image/*"> <!--tag para selecionar imagens-->
+    </label>
+    <div class="lista"></div>
+</body> 
+<script src="scripts.js"></script>  <!--inserindo o arquivo JavaScript, fica ao final do arquivo pois é feito depois do css--> 
+</html>
